@@ -19,5 +19,9 @@ pipeline {
             }
         }
     }
-    
+     post{
+        always {
+            emailext body: 'LOL', subject: 'LOL', to: 'skumar8084064@gmail.com'
+        }
+    }
 }
