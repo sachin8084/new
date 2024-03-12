@@ -21,7 +21,7 @@ pipeline {
     }
      post{
         always {
-            emailext body: 'LOL', subject: 'LOL', to: 'skumar8084064@gmail.com'
+            emailext body: 'LOL', subject: 'LOL', to: 'sachinrauniyar1@gmail.com'
         }
     }
 }
